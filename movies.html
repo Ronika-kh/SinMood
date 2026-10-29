@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فیلم‌ها | سینمود</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">🎬 سینمود</a>
+        </div>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
+
+        <nav>
+            <a href="index.html">خانه</a>
+            <a href="movies.html" class="active">فیلم‌ها</a>
+            <a href="about.html">درباره ما</a>
+            <a href="search.html">جستجو</a>
+        </nav>
+
+        <div class="auth-links">
+            <a href="register.html" class="reg">ثبت‌نام</a>
+            <a href="login.html">ورود</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="movies">
+            <h2>همه فیلم‌ها</h2>
+
+            <div class="movie-grid">
+
+                <article class="movie-card" data-mood="happy sad">
+                    <a class="card-link" href="movies.html#movie-1">
+                        <img class="poster" src="images/inside-out.jpg" alt="پوستر فیلم درون و بیرون">
+                        <h3>درون و بیرون</h3>
+                        <p class="en-title">Inside Out</p>
+                        <p class="info">۲۰۱۵ | انیمیشن، کمدی، درام</p>
+                        <p class="rating"> 8.1</p>
+                        <p class="moods">شاد، غمگین</p>
+                    </a>
+                </article>
+
+                <article class="movie-card" data-mood="sad happy">
+                    <a class="card-link" href="movies.html#movie-3">
+                        <img class="poster" src="images/up.jpg" alt="پوستر فیلم بالا">
+                        <h3>بالا</h3>
+                        <p class="en-title">Up</p>
+                        <p class="info">۲۰۰۹ | انیمیشن، ماجراجویی</p>
+                        <p class="rating">8.3</p>
+                        <p class="moods">غمگین، شاد</p>
+                    </a>
+                </article>
+
+                <article class="movie-card" data-mood="sad happy">
+                    <a class="card-link" href="movies.html#movie-8">
+                        <img class="poster" src="images/coco.jpg" alt="پوستر فیلم کوکو">
+                        <h3>کوکو</h3>
+                        <p class="en-title">Coco</p>
+                        <p class="info">۲۰۱۷ | انیمیشن، موسیقی</p>
+                        <p class="rating"> 8.4</p>
+                        <p class="moods">غمگین، شاد</p>
+                    </a>
+                </article>
+
+                <article class="movie-card" data-mood="angry">
+                    <a class="card-link" href="movies.html#movie-10">
+                        <img class="poster" src="images/mad-max-fury-road.jpg" alt="پوستر فیلم مکس دیوانه: جاده خشم">
+                        <h3>مکس دیوانه: جاده خشم</h3>
+                        <p class="en-title">Mad Max: Fury Road</p>
+                        <p class="info">۲۰۱۵ | اکشن</p>
+                        <p class="rating"> 8.1</p>
+                        <p class="moods">عصبانی</p>
+                    </a>
+                </article>
+
+                <article class="movie-card" data-mood="surprise">
+                    <a class="card-link" href="movies.html#movie-24">
+                        <img class="poster" src="images/parasite.jpg" alt="پوستر فیلم انگل">
+                        <h3>انگل</h3>
+                        <p class="en-title">Parasite</p>
+                        <p class="info">۲۰۱۹ | تریلر، درام</p>
+                        <p class="rating"> 8.5</p>
+                        <p class="moods">متعجب</p>
+                    </a>
+                </article>
+
+                <article class="movie-card" data-mood="surprise neutral">
+                    <a class="card-link" href="movies.html#movie-14">
+                        <img class="poster" src="images/spirited-away.jpg" alt="پوستر فیلم شهر اشباح">
+                        <h3>شهر اشباح</h3>
+                        <p class="en-title">Spirited Away</p>
+                        <p class="info">۲۰۰۱ | انیمیشن، فانتزی</p>
+                        <p class="rating"> 8.6</p>
+                        <p class="moods">متعجب، خونسرد</p>
+                    </a>
+                </article>
+
+                <article class="movie-card" data-mood="happy angry">
+                    <a class="card-link" href="movies.html#movie-16">
+                        <img class="poster" src="images/zootopia.jpg" alt="پوستر فیلم زوتوپیا">
+                        <h3>زوتوپیا</h3>
+                        <p class="en-title">Zootopia</p>
+                        <p class="info">۲۰۱۶ | انیمیشن، کمدی</p>
+                        <p class="rating"> 8.0</p>
+                        <p class="moods">شاد، عصبانی</p>
+                    </a>
+                </article>
+
+                <article class="movie-card" data-mood="angry">
+                    <a class="card-link" href="movies.html#movie-22">
+                        <img class="poster" src="images/john-wick.jpg" alt="پوستر فیلم جان ویک">
+                        <h3>جان ویک</h3>
+                        <p class="en-title">John Wick</p>
+                        <p class="info">۲۰۱۴ | اکشن</p>
+                        <p class="rating"> 7.4</p>
+                        <p class="moods">عصبانی</p>
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="popular">
+            <h2>فیلم‌های محبوب</h2>
+
+            <div class="movie-grid">
+
+                <article class="movie-card" data-mood="sad neutral">
+                    <a class="card-link" href="movies.html#movie-11">
+                        <img class="poster" src="images/the-shawshank-redemption.jpg" alt="پوستر فیلم رستگاری در شاوشنک">
+                        <h3>رستگاری در شاوشنک</h3>
+                        <p class="en-title">The Shawshank Redemption</p>
+                        <p class="info">۱۹۹۴ | درام</p>
+                        <p class="rating"> 9.3</p>
+                        <p class="moods">غمگین، خونسرد</p>
+                    </a>
+                </article>
+
+                <article class="movie-card" data-mood="surprise">
+                    <a class="card-link" href="movies.html#movie-6">
+                        <img class="poster" src="images/inception.jpg" alt="پوستر فیلم تلقین">
+                        <h3>تلقین</h3>
+                        <p class="en-title">Inception</p>
+                        <p class="info">۲۰۱۰ | علمی‌تخیلی، اکشن</p>
+                        <p class="rating"> 8.8</p>
+                        <p class="moods">متعجب</p>
+                    </a>
+                </article>
+
+                <article class="movie-card" data-mood="sad happy">
+                    <a class="card-link" href="movies.html#movie-17">
+                        <img class="poster" src="images/forrest-gump.jpg" alt="پوستر فیلم فارست گامپ">
+                        <h3>فارست گامپ</h3>
+                        <p class="en-title">Forrest Gump</p>
+                        <p class="info">۱۹۹۴ | درام، عاشقانه</p>
+                        <p class="rating"> 8.8</p>
+                        <p class="moods">غمگین، شاد</p>
+                    </a>
+                </article>
+
+                <article class="movie-card" data-mood="surprise neutral">
+                    <a class="card-link" href="movies.html#movie-5">
+                        <img class="poster" src="images/interstellar.jpg" alt="پوستر فیلم میان‌ستاره‌ای">
+                        <h3>میان‌ستاره‌ای</h3>
+                        <p class="en-title">Interstellar</p>
+                        <p class="info">۲۰۱۴ | علمی‌تخیلی، درام</p>
+                        <p class="rating"> 8.7</p>
+                        <p class="moods">متعجب، خونسرد</p>
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <div class="modal" id="movie-1">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/inside-out.jpg" alt="پوستر فیلم درون و بیرون">
+                <h3>درون و بیرون</h3>
+                <p class="en-title">Inside Out</p>
+                <p class="info">سال: ۲۰۱۵ | ژانر: انیمیشن، کمدی، درام</p>
+                <p class="rating"> امتیاز: 8.1</p>
+                <div class="mood-tags"><span>شاد</span><span>غمگین</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-3">بالا</a><a href="#movie-8">کوکو</a><a href="#movie-16">زوتوپیا</a></div>
+            </div>
+        </div>
+        <div class="modal" id="movie-3">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/up.jpg" alt="پوستر فیلم بالا">
+                <h3>بالا</h3>
+                <p class="en-title">Up</p>
+                <p class="info">سال: ۲۰۰۹ | ژانر: انیمیشن، ماجراجویی</p>
+                <p class="rating"> امتیاز: 8.3</p>
+                <div class="mood-tags"><span>غمگین</span><span>شاد</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-1">درون و بیرون</a><a href="#movie-8">کوکو</a><a href="#movie-16">زوتوپیا</a></div>
+            </div>
+        </div>
+        <div class="modal" id="movie-8">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/coco.jpg" alt="پوستر فیلم کوکو">
+                <h3>کوکو</h3>
+                <p class="en-title">Coco</p>
+                <p class="info">سال: ۲۰۱۷ | ژانر: انیمیشن، موسیقی</p>
+                <p class="rating"> امتیاز: 8.4</p>
+                <div class="mood-tags"><span>غمگین</span><span>شاد</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-1">درون و بیرون</a><a href="#movie-3">بالا</a><a href="#movie-16">زوتوپیا</a></div>
+            </div>
+        </div>
+        <div class="modal" id="movie-10">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/mad-max-fury-road.jpg" alt="پوستر فیلم مکس دیوانه: جاده خشم">
+                <h3>مکس دیوانه: جاده خشم</h3>
+                <p class="en-title">Mad Max: Fury Road</p>
+                <p class="info">سال: ۲۰۱۵ | ژانر: اکشن</p>
+                <p class="rating"> امتیاز: 8.1</p>
+                <div class="mood-tags"><span>عصبانی</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-16">زوتوپیا</a><a href="#movie-22">جان ویک</a></div>
+            </div>
+        </div>
+        <div class="modal" id="movie-24">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/parasite.jpg" alt="پوستر فیلم انگل">
+                <h3>انگل</h3>
+                <p class="en-title">Parasite</p>
+                <p class="info">سال: ۲۰۱۹ | ژانر: تریلر، درام</p>
+                <p class="rating"> امتیاز: 8.5</p>
+                <div class="mood-tags"><span>متعجب</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-14">شهر اشباح</a><a href="#movie-6">تلقین</a><a href="#movie-5">میان‌ستاره‌ای</a></div>
+            </div>
+        </div>
+        <div class="modal" id="movie-14">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/spirited-away.jpg" alt="پوستر فیلم شهر اشباح">
+                <h3>شهر اشباح</h3>
+                <p class="en-title">Spirited Away</p>
+                <p class="info">سال: ۲۰۰۱ | ژانر: انیمیشن، فانتزی</p>
+                <p class="rating"> امتیاز: 8.6</p>
+                <div class="mood-tags"><span>متعجب</span><span>خونسرد</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-24">انگل</a><a href="#movie-11">رستگاری در شاوشنک</a><a href="#movie-6">تلقین</a></div>
+            </div>
+        </div>
+        <div class="modal" id="movie-16">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/zootopia.jpg" alt="پوستر فیلم زوتوپیا">
+                <h3>زوتوپیا</h3>
+                <p class="en-title">Zootopia</p>
+                <p class="info">سال: ۲۰۱۶ | ژانر: انیمیشن، کمدی</p>
+                <p class="rating"> امتیاز: 8.0</p>
+                <div class="mood-tags"><span>شاد</span><span>عصبانی</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-1">درون و بیرون</a><a href="#movie-3">بالا</a><a href="#movie-8">کوکو</a></div>
+            </div>
+        </div>
+        <div class="modal" id="movie-22">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/john-wick.jpg" alt="پوستر فیلم جان ویک">
+                <h3>جان ویک</h3>
+                <p class="en-title">John Wick</p>
+                <p class="info">سال: ۲۰۱۴ | ژانر: اکشن</p>
+                <p class="rating"> امتیاز: 7.4</p>
+                <div class="mood-tags"><span>عصبانی</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-10">مکس دیوانه: جاده خشم</a><a href="#movie-16">زوتوپیا</a></div>
+            </div>
+        </div>
+        <div class="modal" id="movie-11">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/the-shawshank-redemption.jpg" alt="پوستر فیلم رستگاری در شاوشنک">
+                <h3>رستگاری در شاوشنک</h3>
+                <p class="en-title">The Shawshank Redemption</p>
+                <p class="info">سال: ۱۹۹۴ | ژانر: درام</p>
+                <p class="rating"> امتیاز: 9.3</p>
+                <div class="mood-tags"><span>غمگین</span><span>خونسرد</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-1">درون و بیرون</a><a href="#movie-3">بالا</a><a href="#movie-8">کوکو</a></div>
+            </div>
+        </div>
+        <div class="modal" id="movie-6">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/inception.jpg" alt="پوستر فیلم تلقین">
+                <h3>تلقین</h3>
+                <p class="en-title">Inception</p>
+                <p class="info">سال: ۲۰۱۰ | ژانر: علمی‌تخیلی، اکشن</p>
+                <p class="rating"> امتیاز: 8.8</p>
+                <div class="mood-tags"><span>متعجب</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-24">انگل</a><a href="#movie-14">شهر اشباح</a><a href="#movie-5">میان‌ستاره‌ای</a></div>
+            </div>
+        </div>
+        <div class="modal" id="movie-17">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/forrest-gump.jpg" alt="پوستر فیلم فارست گامپ">
+                <h3>فارست گامپ</h3>
+                <p class="en-title">Forrest Gump</p>
+                <p class="info">سال: ۱۹۹۴ | ژانر: درام، عاشقانه</p>
+                <p class="rating"> امتیاز: 8.8</p>
+                <div class="mood-tags"><span>غمگین</span><span>شاد</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-1">درون و بیرون</a><a href="#movie-3">بالا</a><a href="#movie-8">کوکو</a></div>
+            </div>
+        </div>
+        <div class="modal" id="movie-5">
+            <a href="#" class="modal-bg" aria-label="بستن"></a>
+            <div class="modal-box">
+                <a href="#" class="modal-close">✕</a>
+                <img class="poster" src="images/interstellar.jpg" alt="پوستر فیلم میان‌ستاره‌ای">
+                <h3>میان‌ستاره‌ای</h3>
+                <p class="en-title">Interstellar</p>
+                <p class="info">سال: ۲۰۱۴ | ژانر: علمی‌تخیلی، درام</p>
+                <p class="rating"> امتیاز: 8.7</p>
+                <div class="mood-tags"><span>متعجب</span><span>خونسرد</span></div>
+                <h4>فیلم‌های مشابه</h4>
+                <div class="related"><a href="#movie-24">انگل</a><a href="#movie-14">شهر اشباح</a><a href="#movie-11">رستگاری در شاوشنک</a></div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="footer-brand">
+            <h2>🎬 سینمود</h2>
+            <p>حالت رو بگو، فیلمت رو پیدا کن.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="index.html">خانه</a>
+            <a href="movies.html">فیلم‌ها</a>
+            <a href="about.html">درباره ما</a>
+            <a href="search.html">جستجو</a>
+            <a href="register.html">ثبت‌نام</a>
+            <a href="login.html">ورود</a>
+        </div>
+
+        <div class="footer-contact">
+            <p>رونیکا خالصی</p>
+            <p>چالش های چهارشنیه،سین مود</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
